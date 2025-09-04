@@ -1,0 +1,34 @@
+@'
+# IDE
+.vs/
+.idea/
+.vscode/
+
+# Build outputs (any depth)
+**/bin/
+**/obj/
+**/Debug/
+**/Release/
+**/x64/
+**/x86/
+ipch/
+**/ipch/
+
+# MSVC artifacts
+*.obj
+*.pdb
+*.ilk
+*.tlog
+*.log
+*.idb
+*.exp
+*.lib
+*.dll
+*.exe
+
+# User/DB files
+*.user
+*.suo
+*.VC.db
+*.VC.opendb
+'@ | Out-File -Encoding ascii .gitignore
